@@ -9,7 +9,9 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss']
 })
-export class AppComponent implements OnInit, OnDestroy{
+export class AppComponent implements OnInit, OnDestroy {
+  ngOnInit() {}
+  ngOnDestroy() {}
   public appPages = [
     {
       title: 'Home',
